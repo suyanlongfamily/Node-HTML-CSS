@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9664f7a8-7142-46aa-bd5c-aba5d3481697" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untitled/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/hello.js" afterPath="$PROJECT_DIR$/untitled/httpStudyhello.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/input.js" afterPath="$PROJECT_DIR$/untitled/readFileAsync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/lesson1.js" afterPath="$PROJECT_DIR$/untitled/sortStudy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untitled/moduleStudy1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untitled/mudleStudy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untitled/streamStudy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untitled/studyBuffer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebstormProjects.iws" />
@@ -26,7 +26,40 @@
     <favorites_list name="WebstormProjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="streamStudy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled/streamStudy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mudleStudy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled/mudleStudy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moduleStudy1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/untitled/moduleStudy1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +81,11 @@
         <option value="$PROJECT_DIR$/untitled/readFileSync.js" />
         <option value="$PROJECT_DIR$/untitled/readFileAsync.js" />
         <option value="$PROJECT_DIR$/untitled/events.js" />
+        <option value="$PROJECT_DIR$/untitled/studyBuffer.js" />
+        <option value="$PROJECT_DIR$/untitled/streamStudy.js" />
+        <option value="$PROJECT_DIR$/moduleStudy1.js" />
+        <option value="$PROJECT_DIR$/untitled/mudleStudy.js" />
+        <option value="$PROJECT_DIR$/untitled/moduleStudy1.js" />
       </list>
     </option>
   </component>
@@ -90,7 +128,28 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -111,20 +170,20 @@
       <recent name="C:\Users\suyanlong\WebstormProjects\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.events.js">
+  <component name="RunManager" selected="Node.js.moduleStudy1.js">
     <configuration default="false" name="input.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/untitled/readFileAsync.js" working-dir="$PROJECT_DIR$/untitled">
-      <method />
-    </configuration>
-    <configuration default="false" name="studyJs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="studyJs.js" working-dir="$PROJECT_DIR$/untitled">
-      <method />
-    </configuration>
-    <configuration default="false" name="nodeHttp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="nodeHttp.js" working-dir="$PROJECT_DIR$/untitled">
       <method />
     </configuration>
     <configuration default="false" name="readFileSync.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="readFileSync.js" working-dir="$PROJECT_DIR$/untitled">
       <method />
     </configuration>
     <configuration default="false" name="events.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="events.js" working-dir="$PROJECT_DIR$/untitled">
+      <method />
+    </configuration>
+    <configuration default="false" name="studyBuffer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="studyBuffer.js" working-dir="$PROJECT_DIR$/untitled">
+      <method />
+    </configuration>
+    <configuration default="false" name="moduleStudy1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="moduleStudy1.js" working-dir="$PROJECT_DIR$/untitled">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -182,18 +241,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.input.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.studyJs.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.nodeHttp.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.readFileSync.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.events.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.readFileSync.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.events.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.studyBuffer.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.moduleStudy1.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.events.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.readFileSync.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.input.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.nodeHttp.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.studyJs.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.moduleStudy1.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.studyBuffer.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.events.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.readFileSync.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.input.js" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +271,7 @@
       <updated>1465088042820</updated>
       <workItem from="1465088044032" duration="5256000" />
       <workItem from="1465106976633" duration="20000" />
-      <workItem from="1465107085014" duration="7846000" />
+      <workItem from="1465107085014" duration="13434000" />
     </task>
     <task id="LOCAL-00001" summary="同步读取文件，和异步读取文件的区别。">
       <created>1465110609477</created>
@@ -225,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13122000" />
+    <option name="totallyTimeSpent" value="18710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,15 +299,15 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4069149" sideWeight="0.6618005" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23352855" sideWeight="0.647541" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50816995" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16377953" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09956076" sideWeight="0.33819953" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48661417" sideWeight="0.48809522" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23352855" sideWeight="0.352459" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42362204" sideWeight="0.48809522" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -323,7 +382,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -550,6 +609,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="797" column="16" selection-start-line="797" selection-start-column="16" selection-end-line="797" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/studyBuffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/streamStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/mudleStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/moduleStudy1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
