@@ -3,7 +3,7 @@
  */
 var http = require("http");//引入http模块句柄
 var fs = require('fs');//引入文件读写模块句柄
-var url = require('url');
+var url = require('url');//引入解析URL 模块。
 var server = http.createServer(function (req,res) {
     var pathname = url.parse(req.url).pathname;
     console.log("requset for " + pathname + " recevied. ");
