@@ -1,0 +1,178 @@
+
+
+#define MESSAGE_RET_MARGINACCOUNT    11020   //推送保证金帐号切换通知。
+
+//客户保证金账户保存信息。
+typedef struct
+{
+    char marginAccount[30];//保证金账户。
+    char marginCurrency[3];//账户货币。
+}TCusMarginStorgeInfo;
+extern  TCusMarginStorgeInfo g_CusMarginStorgeInfo;
+
+typedef struct  //保证金帐号信息。
+{
+    TPackHead     packHead;
+    TCusMarginStorgeInfo pBody;
+}TMarginAcountInfo;
+
+AnsiString   marginAccount;     //  保证金帐号。
+marginAccount = "";
+jRequest[prefix + "marginAccount"] = Json::Value(g_CusMarginStorgeInfo.marginAccount);
+    SendVal["param.marginAccount"] = g_CusMarginStorgeInfo.marginAccount; 
+
+this->lblCaption->Caption = lstLanguageFile->Values[strName + ".lblCaption"] + g_CusMarginStorgeInfo.marginCurrency;
+ json["param.marginAccount"]=g_CusMarginStorgeInfo.marginAccount; 
+    jRequest[prefix + "marginAccount"]=g_CusMarginStorgeInfo.marginAccount;
+  
+/*
+    flag = 0 表示带入参数。
+    flag = 1 表示带出参数。
+*/
+void _fastcall TfrmAccMgrMain::LoadUserInfo(TCusMarginStorgeInfo& CusMarginStorgeInfo,bool flag)
+{
+    AnsiString asFilePath = ExtractFilePath(Application->ExeName) +"Plugins\\config\\UESR";
+    AnsiString userName = "User";
+    AnsiString UserFiniName   = asFilePath + "\\"+userName+".ini";
+    TIniFile *ini = new TIniFile (UserFiniName);
+    if(flag)
+    {
+        strcpy(CusMarginStorgeInfo.marginAccount,ini->ReadString(userName,"marginAccount","").c_str());
+        strcpy(CusMarginStorgeInfo.marginCurrency,ini->ReadString(userName,"marginCurrency","").c_str());
+    }
+    else
+    {
+        ini->WriteString(userName,"marginAccount",CusMarginStorgeInfo.marginAccount);
+        ini->WriteString(userName,"marginCurrency",CusMarginStorgeInfo.marginCurrency);
+    }  
+
+    delete ini;
+    ini = NULL;
+}
+FormManage
+void __fastcall OnChangeMarginAccount(TCusMarginStorgeInfo* pMarginAcountInfo = NULL);
+void __fastcall TfrmAccMgrMain::OnChangeMarginAccount(TCusMarginStorgeInfo* pMarginAcountInfo)
+{
+    //
+
+}
+
+OnChangeMarginAccount(&g_CusMarginStorgeInfo);
+
+case MESSAGE_RET_MARGINACCOUNT:   //推送保证金帐号切换通知。
+{
+	char *lParam = (char*)Msg.LParam;
+	if (lParam != NULL)
+	{
+		try
+		{
+			TMarginAcountInfo MarginAcountInfo;
+			memset(&MarginAcountInfo, 0, sizeof(TMarginAcountInfo));
+			memcpy(&MarginAcountInfo, lParam, sizeof(TMarginAcountInfo));
+			memcpy(&g_CusMarginStorgeInfo, &MarginAcountInfo.pBody, sizeof(TCusMarginStorgeInfo));
+
+
+		}
+		catch (...)
+		{
+			// to-do
+		}
+		break;
+	}
+}
+
+    for(int i = 0; i < count ;++i)
+    {
+        TCusMarginStorgeInfo info;
+        memset(&info,0,sizeof(TCusMarginStorgeInfo));
+        strcpy(info.marginAccount,val["datals"][i]["marginAccount"].asCString());
+        strcpy(info.marginCurrency,val["datals"][i]["currency"].asCString());
+        g_AllCusMarginStorgeInfo.push_back(info);
+
+//        strcpy(info.marginAccount,"人民币账户");
+        if(strcmp(g_CusMarginStorgeInfo.marginAccount,"") == 0)
+        {
+            strcpy(g_CusMarginStorgeInfo.marginAccount,val["datals"][i]["marginAccount"].asCString());
+            strcpy(g_CusMarginStorgeInfo.marginCurrency,val["datals"][i]["currency"].asCString());
+            frmAccMgrMain->LoadUserInfo(g_CusMarginStorgeInfo);
+            g_tCustSignInfo.SetValueByJson(val["datals"][i]);
+        }else if(strcmp(g_CusMarginStorgeInfo.marginAccount,val["datals"][i]["marginAccount"].asCString()) == 0)
+        {
+            strcpy(g_CusMarginStorgeInfo.marginAccount,val["datals"][i]["marginAccount"].asCString());
+            strcpy(g_CusMarginStorgeInfo.marginCurrency,val["datals"][i]["currency"].asCString());
+            frmAccMgrMain->LoadUserInfo(g_CusMarginStorgeInfo);
+            g_tCustSignInfo.SetValueByJson(val["datals"][i]);
+        }
+    } 
+	
+	
+	 g_AllCusMarginStorgeInfo.clear();
+	 
+    if (AnsiString(FCurPair.currency1) != AnsiString(g_CusMarginStorgeInfo.marginCurrency))
+    {
+        double dBidValue = FFxAmountQuote.Ask;
+        double dAskValue = FFxAmountQuote.Bid;
+        if (CompareValue(dBidValue, 0, DoubleValue) == 0)
+            dBidValue = 1;
+        if (CompareValue(dAskValue, 0, DoubleValue) == 0)
+            dAskValue = 1;
+
+        AnsiString strName = AnsiString(FCurPair.currency1);
+        strName +=  "/";
+        strName += AnsiString(g_CusMarginStorgeInfo.marginCurrency);
+        if(strName == AnsiString(FFxAmountQuote.CyPairName))
+        {
+            if (!FCurrency1.isMul)            //直接标价
+            {
+                bid /= dBidValue;
+                ask /= dAskValue;
+                if (AnsiString(FCurPair.currency2) != AnsiString(g_CusMarginStorgeInfo.marginCurrency))
+                {
+                    bid = ask;
+                    
+                }
+            }
+            else
+            {
+                bid *= dBidValue;
+                ask *= dAskValue;
+    //            if (AnsiString(FCurPair.currency2) != AnsiString(g_CusMarginStorgeInfo.marginCurrency))
+    //            {
+    //                ask = bid;
+    //            }
+            }
+
+        }
+
+    }
+	
+typedef enum
+{
+    riskLvlSafe = 1,
+    riskLvlWarn = 2,
+    riskLvlRed  = 3
+}TRiskLevel;
+	
+	
+typedef struct
+{
+    char marginAccount[30];//保证金账户。
+    char marginCurrency[3];//账户货币。
+//    char        m_AccountNo[30];//保证金账号
+    double      m_Balance;      //余额(等值美元)
+    double      m_OpenProfit;   //账面盈亏(等值美元)
+    double      m_NetValue;     //净值(等值美元)
+    double      m_AvlMargin;    //可用保证金(等值美元)
+    double      m_UsedMargin;   //占用保证金(等值美元)
+    double      m_RiskValue;    //风险值
+    double      m_Freeze;       //冻结保证金(等值美元)
+    TRiskLevel  m_RiskLevel;    //风险等级 1-绿色安全2-黄色追保3-红色强平
+
+    bool        m_UseProfit;    //是否使用账面盈亏开关
+
+    void init();
+    
+    void SetValueByJson(Json::Value &val);
+}TAccountInfo,TCusMarginStorgeInfo;
+
+#include "json\json.h"

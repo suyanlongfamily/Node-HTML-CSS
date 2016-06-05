@@ -1,0 +1,286 @@
+
+	typedef map<std::string,TSaveMsg> TSaveMsgList;
+	TSaveMsgList SaveMsgList;
+
+	map<std::string,TSaveMsg>::iterator FIter;	
+
+// 保存xnet包信息
+
+void TTradeAction::AddSaveMsgList(xnet::TXNetData *xnetdata,std::string rootid,std::string uuid,int type = 0)
+{
+	TSaveMsg SaveMsg;
+	SaveMsg.xnetData = xnet::TXNetData::NewObject(xnetdata,xnet::cloneAll);//复制头部。
+	SaveMsg.ReqDate = lang::TDateUtil::GetLocalDate();
+	SaveMsg.ReqTime = lang::TDateUtil::GetLocalTime();
+	//20101008 wubin 
+	SaveMsg.RespDate = 0;
+	SaveMsg.RespTime = 0;
+	//end modify
+	SaveMsg.UUID = uuid;
+    SaveMsg.pkgType = type;
+	SaveMsgList.insert(map<std::string,TSaveMsg>::value_type(rootid,SaveMsg));
+    Logger->AddLog(ltTrade,logNormal,"save xnet Msg in List ROOTID[%s]",rootid.c_str());
+}
+
+
+map<std::string,TSaveMsg>::iterator TTradeAction::AddSaveMsgList(std::string rootid,std::string uuid,lang::XStream& ar,int type = 0)
+{
+     map<std::string,TSaveMsg>::iterator iter = SaveMsgList.find(rootid);
+     
+	 TSaveMsg SaveMsg;
+     SaveMsg.xnetData = xnet::TXNetData::NewObject(iter->second.xnetData,xnet::cloneAll); 
+     SaveMsg.ReqDate = lang::TDateUtil::GetLocalDate();
+     SaveMsg.ReqTime = lang::TDateUtil::GetLocalTime();
+     SaveMsg.xnetData->SetData(ar.str(),ar.size());
+     
+	 SaveMsg.RespDate = 0;
+     SaveMsg.RespTime = 0;
+	
+     SaveMsg.UUID = uuid;
+	 SaveMsg.pkgType = type;
+	 SaveMsgList[rootid] = SaveMsg;
+
+	 return SaveMsgList.find(rootid);
+
+	//测试代码            
+			        //lang::XStream Sar((char *)FIter->second.xnetData->Data(),FIter->second.xnetData->Length());
+            
+	/*pub::TAppTRspMsg AppTRspMsg2;
+    ar>>AppTRspMsg2;
+    Logger->AddLog(ltTrade,logNormal,"3msgCode:[%s] msggr:[%s],UUID[%s]",AppTRspMsg2.RspCode.c_str(),AppTRspMsg2.RspMsg.c_str()
+				                    ,AppTRspMsg2.UUID.c_str());
+
+	TSaveMsg SaveMsg;
+    SaveMsg.xnetData = xnet::TXNetData::NewObject(); 
+    SaveMsg.ReqDate = lang::TDateUtil::GetLocalDate();
+    SaveMsg.ReqTime = lang::TDateUtil::GetLocalTime();
+    //赋值
+    SaveMsg.xnetData->SetData(ar.str(),ar.size());
+
+	lang::XStream Sar3((char *)SaveMsg.xnetData->Data(),SaveMsg.xnetData->Length());
+            
+	pub::TAppTRspMsg AppTRspMsg4;
+    Sar3>>AppTRspMsg4;
+    Logger->AddLog(ltTrade,logNormal,"4msgCode:[%s] msggr:[%s],UUID[%s]",AppTRspMsg4.RspCode.c_str(),AppTRspMsg4.RspMsg.c_str()
+				                    ,AppTRspMsg4.UUID.c_str());
+	
+    SaveMsg.RespDate = 0;
+    SaveMsg.RespTime = 0;
+	
+    SaveMsg.UUID = uuid;
+	SaveMsg.pkgType = type;
+    SaveMsgList.insert(map<std::string,TSaveMsg>::value_type(rootid,SaveMsg));
+	
+	lang::XStream Sar4((char *)SaveMsgList[rootid].xnetData->Data(),SaveMsgList[rootid].xnetData->Length());
+            
+	pub::TAppTRspMsg AppTRspMsg5;
+    Sar4>>AppTRspMsg5;
+    Logger->AddLog(ltTrade,logNormal,"5msgCode:[%s] msggr:[%s],UUID[%s]",AppTRspMsg5.RspCode.c_str(),AppTRspMsg5.RspMsg.c_str()
+				                    ,AppTRspMsg5.UUID.c_str());
+				
+    return SaveMsgList.find(rootid);*/
+}
+
+
+/*
+ * class TSaveMsg(保存信息)
+ */	
+class TSaveMsg
+{
+public:
+	xnet::TXNetData *xnetData;	//请求包保留xnet数据
+	int ReqDate;				//请求日期	
+	int ReqTime;				//请求时间(用于超时判断)
+	int RespDate;				//响应日期	
+	int RespTime;				//响应时间(用于超时判断)
+	std::string UUID;
+    std::string Title;
+#ifdef _CASH
+    TSaveMsg(){}
+#else
+    int pkgType;                //包状态  0-初始包 1-后继包
+    TSaveMsg():pkgType(0){}
+#endif
+	
+};
+
+/*
+ * 返回信息(接口平台发送数据终端)
+ */
+class TAppTRspMsg
+{
+public:
+	char      Flag;			//	连续纪录标志
+							//  CONTINUE_PACKAGE：有后续纪录
+							//  LAST_PACKAGE：最后一条记录，记录内容非空
+							//  OVER_PACKAGE：最后一条记录，记录内容空
+	std::string  RspCode;	//	响应代码
+ 							//  RSP000000：交易成功
+ 							//  其它：　　　交易不成功
+	std::string  RspMsg;	//	响应消息
+	std::string  UUID;		//  外部系统标识
+
+	TAppTRspMsg()
+	{
+		Flag = 0;			//	连续纪录标志
+		RspCode = "";	//	响应代码
+		RspMsg = "";	//	响应消息
+		UUID = "";
+	}
+
+
+	inline lang::XStream &serialize(lang::XStream &ar)
+	{
+		ar << RspCode << RspMsg << UUID;
+		return ar;
+	}
+	inline void deserialize(lang::XStream &ar)
+	{
+		ar >> RspCode >> RspMsg >> UUID;
+	}
+
+	/*!应用接口格式转为金交所平台Api格式*/
+	void SetApiData(TTRspMsg &TRspMsg)
+	{
+		strncpy(TRspMsg.RspCode,RspCode.c_str(),20);
+		strncpy(TRspMsg.RspCode,RspMsg.c_str(),40);
+	}
+	/*!金交所平台Api格式转为应用接口格式*/
+	void GetApiData(TTRspMsg &TRspMsg)
+	{
+		RspCode = TRspMsg.RspCode;
+		RspMsg = TRspMsg.RspMsg;
+	}
+};
+
+
+//16.1 会员客户查询请求
+void TTradeAction::OnReqQryClient( xnet::TXNetData *xnetdata )
+{	
+	lang::XStream ar((char *)xnetdata->Data(),xnetdata->Length());
+	pub::TAppReqQryClient  AppReqQryClient ;
+	ar >> UUID >> AppReqQryClient ;
+	AppReqQryClient.memberID = FMemberID;
+
+	TReqQryClient pReqQryClient ;
+	AppReqQryClient.SetApiData(pReqQryClient);
+
+	//apiLock->Lock ();
+	FTmpRootID = GenerateRootID();
+	int ret = ReqQryClient(&pReqQryClient,const_cast<char *>(FTmpRootID.c_str()));	
+	//apiLock->Unlock ();
+
+	if (ret == 0)
+	{		
+		 ++requestCount;         
+		if (SysConfig.Debug  ==1) 
+	       Logger->AddLog(ltTrade,logNormal,"Process Client Query Request Success ,RootID[%s],Counts[%d]",FTmpRootID.c_str(),requestCount);
+        else
+		   Logger->AddLog(ltTrade,logNormal,"Process Client Query Request Success ,RootID[%s],Counts[%d]",FTmpRootID.c_str(),requestCount);
+	    //保存xnet包信息
+		AddSaveMsgList(xnetdata,FTmpRootID,UUID);
+	}
+	else		
+	{
+		Logger->AddLog(ltTrade,logNormal,"Process Client Query Request Failed, Error[%d]",ret);		
+	}
+}
+//16.2 会员客户查询应答
+void TTradeAction::onRecvRspQryClient( TClient *pClient,TTRspMsg *pRspMsg,char *RootID)
+{
+
+	try
+	{
+		pub::TAppTRspMsg AppTRspMsg;
+		AppTRspMsg.GetApiData(*pRspMsg);
+		if (!strcmp(pRspMsg->RspCode,SUCSTR)){			
+			++responseCount;
+			Logger->AddLog(ltTrade,logNormal,"received client query response,success,Response Counts[%d]",responseCount);
+		}	 
+		else
+		{
+			Logger->AddLog(ltTrade,logNormal,"received client query response, failed:RspCode[%s],RspMsg[%s]",
+				AppTRspMsg.RspCode.c_str(),AppTRspMsg.RspMsg.c_str());
+			SendErrorMsgToMonitor(1,AppTRspMsg.RspMsg);
+		}
+		pub::TAppClient AppClient;
+		if (!strcmp(pRspMsg->RspCode,SUCSTR))
+			AppClient.GetApiData(pClient);
+		FIter = SaveMsgList.find(RootID);
+        // 如果是中继包或者最后一个数据包，将本次交易数据加到对应xnet包中，等待结束包
+		if (pRspMsg->Flag == CONTINUE_PACKAGE 
+			|| pRspMsg->Flag == LAST_PACKAGE)
+		{
+			//之前没有记录
+			if ( FIter == SaveMsgList.end())
+			{
+                 Logger->AddLog(ltTrade,logNormal,"Record can not be found,RootID[%s]",RootID);
+			     return;
+			}
+			else
+			{
+                if (FIter->second.pkgType == 0)
+				{
+                    pub::TClientList ClientList;
+                    ClientList.add(AppClient);
+
+				    lang::XStream rar;  
+                    rar << AppTRspMsg << ClientList;			
+
+				    FIter = AddSaveMsgList(RootID,AppTRspMsg.UUID,rar,1);
+					
+				}
+				else if (FIter->second.pkgType == 1)
+				{
+                   pub::TClientList ClientList;
+			       lang::XStream ar(FIter->second.xnetData->Data(),FIter->second.xnetData->Length());
+			       ar >> AppTRspMsg >> ClientList;
+			       ClientList.add(AppClient);
+
+			       lang::XStream rar;
+			       AppTRspMsg.RspMsg = pRspMsg->RspMsg;
+			       AppTRspMsg.RspCode = pRspMsg->RspCode;
+			       AppTRspMsg.UUID = FIter->second.UUID;
+		 	       rar << AppTRspMsg << ClientList;
+			       FIter->second.xnetData->SetData(rar.str(),rar.size());		
+			       FIter->second.RespDate  = lang::TDateUtil::GetLocalDate();
+			       FIter->second.RespTime = lang::TDateUtil::GetLocalTime();
+				}				
+			}
+		}
+
+		
+		// 如果为最后一个包，发送应答包给数据终端
+		if (pRspMsg->Flag == LAST_PACKAGE
+			|| pRspMsg->Flag == OVER_PACKAGE)
+		{			
+			xnet::TXNetData *xnetData;
+			xnetData = FIter->second.xnetData;
+			xnetData->Exchange();
+		  	xnetData->SetReturnCode(0);
+			XSocket->SendData(xnetData);
+			if (SysConfig.Debug  ==1) 
+                Logger->AddLog(ltTrade,logNormal,"response Client Query Counts[%d]",responseCount); 
+            else
+		        Logger->AddLog(ltTrade,logNormal,"response Client Query Counts[%d]",responseCount);
+			// 发送监控数据包
+		    if (FIsGraspPkg)
+			    SendPackageToMonitor('T',xnetData);						
+		    SaveMsgList.erase(RootID);
+		}		
+		
+	}	
+	catch(lang::Exception &e)
+	{
+		Logger->AddLog(ltTrade,logError,"ERROR:Interface thread,LANGException[%s]",e.what());
+	}
+	catch(std::exception &e)
+	{
+		Logger->AddLog(ltTrade,logError,"ERROR:Interface thread,STDException[%s]",e.what());
+	}
+	catch(...)
+	{
+		Logger->AddLog(ltTrade,logError,"ERROR:Interface thread,unknownException");
+	}
+
+}
