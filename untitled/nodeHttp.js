@@ -6,8 +6,8 @@ var fs = require('fs');//引入文件读写模块句柄
 var url = require('url');//引入解析URL 模块。
 var server = http.createServer(function (req,res) {
     var pathname = url.parse(req.url).pathname;
-    console.log("requset for " + pathname + " recevied. ");
-    fs.readFile(pathname.substr(1),function (err,data) {
+    console.log("requset for " + pathname + " recevied.txt ");
+    fs.readFile("./recevied.txt",function (err,data) {
         if(err){
             console.log(err);
             res.writeHead(404,{'Content-type':'text/html'});
@@ -19,6 +19,5 @@ var server = http.createServer(function (req,res) {
         res.end();
     })
 });
-
 server.listen(8081);
 console.log('Server running at http://127.0.0.1:8081/');

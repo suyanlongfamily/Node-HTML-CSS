@@ -36,7 +36,7 @@ add(
 
 //内部函数，私用函数。
 function outer(param){
-    //函数内部定义一个函数。私用函数。C 与C++  就不可以。
+    //函数内部定义一个函数。私用函数。C 与C++ 就不可以。
     function inner(thatParam){
         thatParam *= 3;
         return thatParam;        
@@ -55,7 +55,7 @@ console.log("---",outer(param));
 // var aa = a();//aa得到的返回值是一个函数；
 // aa();
 // a()();
-//function deal( var param){}  函数形参加一个var 变量声明关键字，是不行的。
+// function deal( var param){}  函数形参加一个var 变量声明关键字，是不行的。
 
 function deal( param){
     console.log(param);

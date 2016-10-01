@@ -11,4 +11,3 @@ var buffer3 = Buffer.concat([buffer1,buffer2]);
 console.log(buffer3);
 console.log(buffer3.toString());
 console.log("buffer3 length = %d",buffer3.length);
-

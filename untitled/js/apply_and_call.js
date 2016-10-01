@@ -3,7 +3,6 @@
  */
 var someObj = {
     name: "suyanlong",
-
     say: function (who) {
         //必须用到this指针，否则识别不到。
         console.log(this.name + "向您问好，" + who);

@@ -1,0 +1,33 @@
+/*主窗体布局、颜色、大小*/
+body{
+    background-color: #ECF0F1;
+    margin: 0px;
+}
+
+.ms-top{
+    background-color: #18A7B7;
+    margin: 0px;
+    font-size:x-large;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+/*//清除li标签的符号*/
+.ms-top li{
+    list-style-type: none;
+}
+
+/*//a标签的下划线属性*/
+a{
+    text-decoration: none;
+}
+
+/*//固定位置。*/
+
+#paris{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+}
