@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!--
+总结：
+    1、框架的东西，有时候就是过于死板，想要实现某一个功能，必须按框架规定的来，一些死板硬套的关键字，定义不清楚的函数接口，以及难于排查问题的代码逻辑！
+    2、每一个控制作用域下都要有对应的scope对象。这个一定要兼顾，MVC交互图才能一一寻找得到。
+    3、注入到injector容器，成为服务对象，然后调用injector提供的接口把这个服务对象注入到其他的地方。谁需要（依赖）这个服务对象就给谁注入。这就是所谓的依赖注入！
+    4、解析很重要！！!,已经不再符合先声明后使用的方式了，通过【解析】对象，查找符合的声明！！！。
+    5、js动态语言的能力确实很强大，通过解析、校验、分隔、筛选、分组等形式，实现自己想要的功能。所以有时候确实让你感到很感到不按常理出牌！！！
+-->
+<html lang="en" ng-app="a5_7">
+<head>
+    <meta charset="UTF-8">
+    <title>切换参数传递</title>
+    <script type="text/javascript" src="common/angular.js"></script>
+    <script type="text/javascript" src="common/angular-route.js"></script>
+</head>
+<body>
+    <div ng-view></div>
+    <script type="text/javascript">
+        var a5_7= angular.module('a5_7',['ngRoute']);
+        a5_7.controller('c5_7_1',['$scope',function ($scope) {
+            /*
+            * studentsInfo 这个定义在后面的，为什么在这里也已使用！！！？？？
+            * 推断：使用的时候并不是按前后声明或定义的形式了。看来是解析很重要了！！！很重要啊！！！
+            *
+            * */
+
+            $scope.students = studentsInfo;//这个是c5_7_1作用域下的控制器！
+        }]);
+
+        /*1 带 $ 符号的都是系统内置的对象！！！，需要注意。
+        * 2 明白作用域！在那一个控制作用域下！以及这个控制作用域是作甚的！这样才能写逻辑代码。
+        * */
+        a5_7.controller('c5_7_2',['$scope','$routeParams',function ($scope,$routeParams) {
+            for(var i = 0;i < studentsInfo.length ; ++i){
+                if(studentsInfo[i].stuId == $routeParams.id) {
+                    $scope.student = studentsInfo[i];//这个是c5_7_2作用域下的控制器！
+                    break;
+                }
+            }
+        }]);
+
+        /*1、 config函数，我理解是，已经存在$routeProvider 这个注入对象了，只是它注入到后后面对应的函数中，通过构造借用方式，参数注入形式传递过去。
+        * 2、注入到injector容器，成为服务对象，然后调用injector把这个服务对象注入到其他的地方。谁需要这个服务对象就给谁注入，通过构造注入的方式。
+        *
+        * */
+        a5_7.config(['$routeProvider',function ($routeProvider) {
+            $routeProvider
+                    .when('/',{
+                            controller:'c5_7_1',//!!!命名控制器。命名与指定还是有区别的！！！，注意方向！一个无，一个是有并用到这里的意思。
+                            templateUrl:'5-7-1.html'//指定路径！！！
+                    })
+                    .when('/view/:id',{
+                            controller:'c5_7_2',
+                            templateUrl:'5-7-2.html',
+                            publicAccess:true
+                    })
+                    .otherwise({
+                                redirectTo:'/'
+                            }
+                    );
+
+        }]);
+
+        /*学生信息！*/
+        var studentsInfo =[
+            {stuId:1000,name:'张欢',sex:'女',score:60 },
+            {stuId:1001,name:'李清照',sex:'女',score:80 },
+            {stuId:1002,name:'赵明',sex:'男',score:90 },
+            {stuId:1003,name:'力高',sex:'男',score:30 },
+            {stuId:1004,name:'张晓',sex:'女',score:87 }
+        ];
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+recevied.txt
+/**
+ * Module dependencies.
+ */
+
+var express = require('express');
+var routes = require('./routes/index');
+var http = require('http');
+var path = require('path');
+var config = require("./config/config");
+var domain = require('domain');
+var cluster = require('cluster');
+
+log = require('./logger/logger');  //定义全局的日志对象
+
+
+var dm = domain.create();
+dm.on('error', function (error) { // 处理domain捕捉的错误
+    console.error("捕获到未处理异常：【"+error.stack+"】");
+    log.error("捕获到未处理异常：【"+error.stack+"】");
+    delete error.domain;
+});
+dm.run(function () {
+
+//    if( 0 ){
+   if(cluster.isMaster){ //管理进程
+        for (var i = 0; i < config.numCPUs; i++) {
+            cluster.fork();
+        }
+        cluster.on("listening",function(worker,address){
+            console.log("child pid【"+ worker.id +"】: "+ worker.process.pid);
+            log.debug( "child pid【"+ worker.id +"】: "+ worker.process.pid );
+        });
+        cluster.on("exit", function(worker, code, signal) {
+            console.log("child pid : "+ worker.process.pid+" 重启");
+            log.debug( "child pid : "+ worker.process.pid+" 重启" );
+            setTimeout(function() {cluster.fork();},1000);
+        });
+    }else{ //任务进程
+        var  app = express();
+        module.exports = app.locals;
+
+        app.engine('.html', require('ejs').__express);
+        //配置所有环境
+        app.configure(function(){
+            app.set("sessionMap", {});
+            app.set("appName", config.appName);
+            app.set('port', config.port);
+            app.set('view engine', 'html');
+            app.set('views', __dirname + '/views');
+
+            app.use(express.favicon( __dirname + '/resource/images/favicon.ico'));
+            app.use(express.responseTime());  //计算响应时间
+            app.use(express.logger("dev"));    //日志中间件
+            app.use(express.compress());  //通过gzip / deflate压缩响应数据
+            app.use(express.bodyParser({uploadDir:config.baseDir + config.fileTemp})); //支持 JSON, urlencoded和multipart requests的请求体解析中间件
+            app.use(express.cookieParser('keyboard cat'));
+            app.use(express.session({secret: config.session_secret, key: 'sid', cookie: { maxAge: 1000*60*60*3 }}));  //以cookie为基础的sessions,设置在req.session里
+//                var RedisStore = require('connect-redis')(express.session);
+//                app.use(express.session({
+//                    secret : config.session_secret,
+//                    store : new RedisStore(),
+//                    key : 'sid'
+//                }));
+            app.use(express.methodOverride());
+            app.use(app.router);
+        });
+
+        //路由控制
+        routes(app);
+
+        var hashStr = "Can not find the page....";
+        var hash = require("crypto").createHash('sha1').update(hashStr).digest('base64');
+
+        app.use(function (err, req, res, next) {
+            console.log(err.stack);
+
+            log.error( err.stack, req, res );
+
+            var errMsg = err.errormsg || err.stack;
+            errMsg = errMsg.split(/\n/);
+            res.status(505).render("505",{ errormsg : errMsg});
+        });
+
+    //启动监听
+    http.createServer(app).listen(app.get('port'), function(){
+        console.log('Express server listening on port ' + app.get('port'));
+        log.info( 'Express server listening on port ' + app.get('port') );
+    });
+}
+});
+
+
+
+

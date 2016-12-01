@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AngularJS  依赖注入</title>
+    <script src="./common/angular.js"></script>
+</head>
+<body>
+<h2>AngularJS 简单应用</h2>
+<div ng-app = "mainApp" ng-controller = "CalcController">
+    <p>输入一个数字: <input type = "number" ng-model = "number" /></p>
+    <button ng-click = "square()">X<sup>2</sup></button>
+    <p>结果: {{result}}</p>
+
+</div>
+
+<script>
+    //<script src="./common/angular.js">script>这一句其实就是引入js文件，初始化AngularJS框架，
+    //下面是对用户代码进去配置、初始化。可认为是执行程序的入口点了。
+var mainApp = angular.module("mainApp", []);
+    mainApp.config(function($provide) {
+        $provide.provider('MathService', function() {
+            this.$get = function() {
+                var factory = {};
+                factory.multiply = function(a, b) {
+                    return a * b;
+                }
+                return factory;
+            };
+        });
+    });
+
+    mainApp.value("defaultInput", 5);//想想，spring 里面的bean.xml配置文件，就知道了。其实，注册就是这个字符串的命名的服务
+    mainApp.factory('MathService', function() {
+        var factory = {};
+        factory.multiply = function(a, b) {
+            return a * b;
+        }
+        return factory;
+    });
+    mainApp.service('CalcService', function(MathService){
+        this.square = function(a) {
+            return MathService.multiply(a,a);
+        }
+    });
+    //终于理解形参名字也要保持一一致了，这和js动态语言有关系！！！，不像C++或者C或者JAVA强类型语言一样。
+    //第一、强类型语言，定义一个函数，都会命名每一个参数的类型，而类型就决定了对象的布局。而js语言却没有这种机制，形参可以代表所有类型，传入进去就可以！！
+    //第二、所以，angualrJS中，一个回调函数，要么约定这个回调函数参数形式，要么就是名字一致，而想要调用函数，执行回调函数，并且这个回调函数想要动态的改变形参，这句决定了实参与形参一致，才知道是那个对象，传入进去。
+    //第三、JS里给你一个函数，形参需要传入一个回调函数，并且这个回调函数没有规定形式。想要正确执行这个函数，就要指定实参与形参匹配？怎么做到匹配呢？要么形参与实参传入顺序一直，要么就是实参与形参名字一样。这两汇种，而AngularJS里面都用到了！！！
+    //第四、字符串服务名字，例如'CalcController'  在spring里面就是 代表属性名或者唯一标识ID，所以必须是唯一！！！
+    //第五、invoke()函数是执行一个自定义函数。
+    //第六、
+
+    //看来，JS语言的函数，已经不要像，强类型语言函数那么理解了！！！
+
+    var fun = function () {
+        console.log("niaho");
+    }
+
+    var inject = angular.injector(["mainApp",'ng']);
+
+    inject.invoke(fun);
+//    inject.invoke(['$scope','CalcService','defaultInput',function($scope, CalcService, defaultInput) {
+//        $scope.number = defaultInput;
+//        $scope.result = CalcService.square($scope.number);
+//        $scope.square = function() {
+//            $scope.result = CalcService.square($scope.number);
+//        }
+//    }]);
+
+    mainApp.controller('CalcController', ['$scope','CalcService','defaultInput',function($scope, CalcService, defaultInput) {
+        $scope.number = defaultInput;
+        $scope.result = CalcService.square($scope.number);
+        $scope.square = function() {
+            $scope.result = CalcService.square($scope.number);
+        }
+    }]);
+
+
+
+//    app.config(function($provide) {
+//        $provide.provider('greeting', function() {
+//            this.$get = function() { //其实就是get  set 方式的获取与注入！！！，也就理解为什么要要通过一个无参数函数返回一个函数了。
+//                return function(name) {greeting 代表就是这个函数。调用greeting 就是greeting() 函数调用！
+//                    alert("Hello, " + name);
+//                };
+//            };
+//        });
+//    });
+
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <script src="./common/angular.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <title>表达式中的容错性</title>
+</head>
+<body>
+<div ng-controller="e2_3">
+    <span>{{tmp}}</span>
+    <button ng-click="error();">单击</button>
+</div>
+<script type="text/javascript">
+    function e2_3($scope) { //控制器名字直接就是函数名字。
+        $scope.tmp = "Angular";
+        $scope.error = function () {
+//            console.log(ttmp);ttmp 是未定义的变量，所以控制台打印出错。
+            console.log(this.tmp);
+        }
+    }
+</script>
+</body>
+</html>

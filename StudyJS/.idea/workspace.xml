@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c28c5d89-5153-4412-81cd-9b7912d8677f" name="Default" comment="从新学习node.js，与javascript语言。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/5-7-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/5-7-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/5-7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/common/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/e2_3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/e2_4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/e2_8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/e4_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/exmple1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/helloworld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJS/inject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Inherit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/RegExcept.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/String.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angularToAnlytic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/express.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/express1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/httpStudyHello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/moduleStudy1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/recevied.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../express/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../express/server.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/httpStudyhello.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled/moduleStudy1.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/dictionaries/suyanlong.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/suyanlong.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/jsLinters/jscs.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jscs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/studyNodeJs.iml" afterPath="$PROJECT_DIR$/.idea/studyNodeJs.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/Untitled-1" afterPath="$PROJECT_DIR$/Untitled-1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/events.js" afterPath="$PROJECT_DIR$/js/events.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/html/caidan.html" afterPath="$PROJECT_DIR$/html/caidan.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/html/index.js" afterPath="$PROJECT_DIR$/html/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/img/paris.jpg" afterPath="$PROJECT_DIR$/img/paris.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/js/URL.js" afterPath="$PROJECT_DIR$/js/URL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/js/apply_and_call.js" afterPath="$PROJECT_DIR$/js/apply_and_call.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/js/mudleStudy.js" afterPath="$PROJECT_DIR$/js/mudleStudy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/js/regular.js" afterPath="$PROJECT_DIR$/js/regular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/js/studyClass.js" afterPath="$PROJECT_DIR$/js/studyClass.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/js/website.js" afterPath="$PROJECT_DIR$/js/website.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/new1.txt" afterPath="$PROJECT_DIR$/js/new1.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/nodeHttp.js" afterPath="$PROJECT_DIR$/js/nodeHttp.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/readFileAsync.js" afterPath="$PROJECT_DIR$/js/readFileAsync.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/readFileSync.js" afterPath="$PROJECT_DIR$/js/readFileSync.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/router.js" afterPath="$PROJECT_DIR$/js/router.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/server.js" afterPath="$PROJECT_DIR$/js/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/sortStudy.js" afterPath="$PROJECT_DIR$/js/sortStudy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/streamStudy.js" afterPath="$PROJECT_DIR$/js/streamStudy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/studyBuffer.js" afterPath="$PROJECT_DIR$/js/studyBuffer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/studyFunction.js" afterPath="$PROJECT_DIR$/js/studyFunction.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../untitled/studyJs.js" afterPath="$PROJECT_DIR$/js/studyJs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+    </list>
+    <ignored path="untitled.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="studyNodeJs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RegExcept.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/RegExcept.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regular.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/regular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readFileSync.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/readFileSync.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moduleStudy1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/moduleStudy1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apply_and_call.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/apply_and_call.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nodeHttp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/nodeHttp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="express1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/express1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angularToAnlytic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/angularToAnlytic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GotoClassSymbolConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="$XSLT" />
+      <filtered-out-file-type name="Angular2HTML" />
+      <filtered-out-file-type name="Apple JS" />
+      <filtered-out-file-type name="Asp" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="CoffeeScriptLiterate" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Dart" />
+      <filtered-out-file-type name="ECMA Script Level 4" />
+      <filtered-out-file-type name="ECMAScript 6" />
+      <filtered-out-file-type name="EJS" />
+      <filtered-out-file-type name="EL" />
+      <filtered-out-file-type name="Flow JS" />
+      <filtered-out-file-type name="GWT JavaScript" />
+      <filtered-out-file-type name="Gherkin" />
+      <filtered-out-file-type name="HAML" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="Handlebars" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JQuery-CSS" />
+      <filtered-out-file-type name="JSInJade" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="JSPX" />
+      <filtered-out-file-type name="JSRegexp" />
+      <filtered-out-file-type name="JSX Harmony" />
+      <filtered-out-file-type name="Jade" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JavaScript 1.5" />
+      <filtered-out-file-type name="JavaScript 1.6" />
+      <filtered-out-file-type name="JavaScript 1.7" />
+      <filtered-out-file-type name="JavaScript 1.8" />
+      <filtered-out-file-type name="LESS" />
+      <filtered-out-file-type name="Nashorn JS" />
+      <filtered-out-file-type name="RELAX-NG" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="SASS" />
+      <filtered-out-file-type name="SCSS" />
+      <filtered-out-file-type name="Spacebars" />
+      <filtered-out-file-type name="Stylus" />
+      <filtered-out-file-type name="TEXT" />
+      <filtered-out-file-type name="TypeScript" />
+      <filtered-out-file-type name="TypeScript JSX" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="XPath" />
+      <filtered-out-file-type name="XPath2" />
+      <filtered-out-file-type name="YouTrack" />
+      <filtered-out-file-type name="textmate" />
+      <filtered-out-file-type name="yaml" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AngularJS/common/angular.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/js/studyJs.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/studyClass.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="node.js" />
+        <option value="$PROJECT_DIR$/../untitled/test.js" />
+        <option value="$PROJECT_DIR$/../untitled/studyJs.js" />
+        <option value="$PROJECT_DIR$/../untitled/css/style.css" />
+        <option value="internal/util.js" />
+        <option value="$PROJECT_DIR$/../untitled/nodeHttp.js" />
+        <option value="fs.js" />
+        <option value="$PROJECT_DIR$/../untitled/sortStudy.js" />
+        <option value="$PROJECT_DIR$/../untitled/readFileSync.js" />
+        <option value="path.js" />
+        <option value="$PROJECT_DIR$/../untitled/readFileAsync.js" />
+        <option value="internal/net.js" />
+        <option value="$PROJECT_DIR$/../untitled/studyFunction.js" />
+        <option value="$PROJECT_DIR$/../untitled/mudleStudy.js" />
+        <option value="internal/module.js" />
+        <option value="$PROJECT_DIR$/../untitled/js/studyClass.js" />
+        <option value="$PROJECT_DIR$/../untitled/js/Inherit.js" />
+        <option value="$PROJECT_DIR$/../untitled/studyBuffer.js" />
+        <option value="$PROJECT_DIR$/../untitled/httpStudyHello.js" />
+        <option value="$PROJECT_DIR$/../untitled/AngularJS/helloworld.html" />
+        <option value="$PROJECT_DIR$/../untitled/index.html" />
+        <option value="$PROJECT_DIR$/js/httpStudyHello.js" />
+        <option value="$PROJECT_DIR$/js/mudleStudy.js" />
+        <option value="$PROJECT_DIR$/AngularJS/e2_3.html" />
+        <option value="$PROJECT_DIR$/AngularJS/e2_8.html" />
+        <option value="$PROJECT_DIR$/AngularJS/e4_1.html" />
+        <option value="$PROJECT_DIR$/AngularJS/common/backup/angular.js" />
+        <option value="$PROJECT_DIR$/AngularJS/e2_4.html" />
+        <option value="$PROJECT_DIR$/js/angularToAnlytic.js" />
+        <option value="$PROJECT_DIR$/AngularJS/exmple1.html" />
+        <option value="$PROJECT_DIR$/AngularJS/inject.html" />
+        <option value="$PROJECT_DIR$/AngularJS/common/angular.js" />
+        <option value="$PROJECT_DIR$/js/apply_and_call.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/js/RegExcept.js" />
+        <option value="module.js" />
+        <option value="$PROJECT_DIR$/js/String.js" />
+        <option value="$PROJECT_DIR$/js/server.js" />
+        <option value="$PROJECT_DIR$/js/Inherit.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyNodeJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyNodeJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyNodeJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="D:\Program Files\nodejs\node" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="js.eslint.eslintPackage" value="C:\Users\suyanlong\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled/test.js" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../untitled/test.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/suyanlong/Desktop/html5/js/test.js" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="108" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="200" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="868" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="125" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="925" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="js-jscs-package" value="C:\Users\suyanlong\node_modules\jscs" />
+    <property name="TODO_SCOPE" value="Module 'studyNodeJs'" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\suyanlong\WebstormProjects\StudyJS\AngularJS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\suyanlong\WebstormProjects\StudyJS\AngularJS\common" />
+      <recent name="C:\Users\suyanlong\WebstormProjects\untitled\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.String.js">
+    <configuration default="false" name="apply_and_call.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/apply_and_call.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="studyClass.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/studyClass.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="Inherit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/Inherit.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="RegExcept.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="RegExcept.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="String.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="String.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/studyJs.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="httpStudyHello.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/httpStudyHello.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.httpStudyHello.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.apply_and_call.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.studyClass.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Inherit.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.RegExcept.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.String.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.String.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.RegExcept.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.apply_and_call.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Inherit.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.studyClass.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",HIDE_INHERITED,HIDE_INHERITED_FROM_OBJECT,ALPHA_COMPARATOR,SHOW_CLASSES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\suyanlong\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c28c5d89-5153-4412-81cd-9b7912d8677f" name="Default" comment="" />
+      <created>1464829011955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1464829011955</updated>
+      <workItem from="1464829014000" duration="26000" />
+      <workItem from="1464863627985" duration="211000" />
+      <workItem from="1464863885736" duration="114000" />
+      <workItem from="1464954125792" duration="1200000" />
+      <workItem from="1464969406215" duration="1711000" />
+      <workItem from="1465005211311" duration="3217000" />
+      <workItem from="1465086830985" duration="1143000" />
+      <workItem from="1475060547280" duration="4397000" />
+      <workItem from="1475198420489" duration="1282000" />
+      <workItem from="1475217376661" duration="409000" />
+      <workItem from="1475224134384" duration="218000" />
+      <workItem from="1475224377970" duration="384000" />
+      <workItem from="1475224778014" duration="3523000" />
+      <workItem from="1475242234820" duration="5073000" />
+      <workItem from="1475324158004" duration="2543000" />
+      <workItem from="1475326727554" duration="243000" />
+      <workItem from="1475327096778" duration="6370000" />
+      <workItem from="1475377066264" duration="157000" />
+      <workItem from="1475377318996" duration="3090000" />
+      <workItem from="1475412261233" duration="2509000" />
+      <workItem from="1475462183382" duration="5152000" />
+      <workItem from="1475544034009" duration="242000" />
+      <workItem from="1475544378842" duration="15671000" />
+      <workItem from="1475561892773" duration="1384000" />
+      <workItem from="1475574603630" duration="2006000" />
+      <workItem from="1475577205520" duration="1048000" />
+      <workItem from="1475739708874" duration="11238000" />
+      <workItem from="1475805522507" duration="2995000" />
+      <workItem from="1475894034865" duration="1261000" />
+      <workItem from="1476171949763" duration="9445000" />
+      <workItem from="1476233354044" duration="9994000" />
+      <workItem from="1476266226276" duration="1491000" />
+      <workItem from="1476320395621" duration="13919000" />
+      <workItem from="1476406529447" duration="11105000" />
+      <workItem from="1476435115885" duration="4000" />
+      <workItem from="1480490801291" duration="1420000" />
+      <workItem from="1480558004803" duration="2472000" />
+      <workItem from="1480582225580" duration="4000" />
+    </task>
+    <task id="LOCAL-00001" summary="从新学习node.js，与javascript语言。">
+      <created>1475328572431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475328572431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128671000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20089285" sideWeight="0.43856657" order="0" side_tool="false" content_ui="combo" x="71" y="128" width="356" height="356" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.48214287" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5504274" sideWeight="0.53869045" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48976108" sideWeight="0.48511904" order="7" side_tool="false" content_ui="tabs" x="11" y="195" width="1344" height="337" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28199404" sideWeight="0.56143343" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3225256" sideWeight="0.49107143" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20163691" sideWeight="0.5555556" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4129693" sideWeight="0.47619048" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4778157" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2764505" sideWeight="0.46130952" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="从新学习node.js，与javascript语言。" />
+    <option name="LAST_COMMIT_MESSAGE" value="从新学习node.js，与javascript语言。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/nodeHttp.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/nodeHttp.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/nodeHttp.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/nodeHttp.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/nodeHttp.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/readFileAsync.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/readFileAsync.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/readFileAsync.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/studyJs.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/mudleStudy.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/studyClass.js</url>
+          <line>95</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/studyClass.js</url>
+          <line>94</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/Inherit.js</url>
+          <line>72</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/Inherit.js</url>
+          <line>81</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/Inherit.js</url>
+          <line>67</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/Inherit.js</url>
+          <line>85</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/Inherit.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/httpStudyHello.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/AngularJS/common/angular.js</url>
+          <line>20531</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/AngularJS/inject.html</url>
+          <line>60</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/apply_and_call.js</url>
+          <line>90</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/apply_and_call.js</url>
+          <line>95</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/RegExcept.js</url>
+          <line>56</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="96" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="ob.constructor" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/nodejs/lesson1.js" />
+    <entry file="file://D:/nodejs/hello.js" />
+    <entry file="file://D:/nodejs/input.js" />
+    <entry file="file://$PROJECT_DIR$/img/paris.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/caidan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/recevied.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled-1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/js/mudleStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/common/新建文件夹/angular.js" />
+    <entry file="file://$PROJECT_DIR$/AngularJS/common/backup/angular.js" />
+    <entry file="file://$PROJECT_DIR$/AngularJS/exmple1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2620">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_node_node.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6500">
+          <caret line="328" column="8" selection-start-line="328" selection-start-column="8" selection-end-line="328" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/e2_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/e2_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/e4_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/e2_8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/inject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/common/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60180">
+          <caret line="3013" column="9" selection-start-line="3013" selection-start-column="9" selection-end-line="3013" selection-end-column="9" />
+          <folding>
+            <element signature="e#114511#115041#0" expanded="false" />
+            <marker date="1476320537947" expanded="true" signature="33298:33342" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="33467:33511" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="115966:116084" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="116189:116462" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="116231:116453" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="116244:116330" ph="//..." />
+            <marker date="1476320537947" expanded="true" signature="116524:116583" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="116600:116664" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="260112:260818" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="260143:260213" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="260407:260573" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="260586:260721" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="260904:261508" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="261000:261392" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="261176:261251" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="261291:261384" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="261442:261503" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="261647:261855" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="261923:262130" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="262229:262435" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="316455:316536" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="316615:317029" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="446921:447490" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="447267:447481" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="447326:447470" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="447682:448047" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="447793:447840" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="448088:448314" ph="[...]" />
+            <marker date="1476320537947" expanded="true" signature="448092:448229" ph="{&quot;name&quot;: &quot;Alice&quot;...}" />
+            <marker date="1476320537947" expanded="true" signature="448233:448312" ph="{&quot;name&quot;: &quot;Bob&quot;...}" />
+            <marker date="1476320537947" expanded="true" signature="448388:448847" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="448444:448549" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="448619:448841" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="576095:576196" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="576216:576256" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="576389:577527" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="576408:577516" ph="{&quot;restrict&quot;: 'A'...}" />
+            <marker date="1476320537947" expanded="true" signature="576602:577504" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="576639:576718" ph="//..." />
+            <marker date="1476320537947" expanded="true" signature="576762:576835" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="576955:577008" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="577033:577088" ph="//..." />
+            <marker date="1476320537947" expanded="true" signature="577119:577490" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="577180:577326" ph="//..." />
+            <marker date="1476320537947" expanded="true" signature="577381:577429" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="577596:577892" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="577629:577741" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="577995:578301" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="600421:600473" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="600620:600799" ph="[...]" />
+            <marker date="1476320537947" expanded="true" signature="600663:600798" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="600897:601099" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="605222:605272" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="605286:605326" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="605339:605372" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="605473:605922" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="605987:606220" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="606284:606592" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="607047:607207" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="607237:607292" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="607383:607854" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="609288:609462" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="609329:609448" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="609391:609432" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="609518:609549" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="609563:609595" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="609708:609930" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="610735:610930" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="610776:610916" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="610838:610900" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="610986:611017" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="611031:611063" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="611176:611398" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="636023:636089" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="636154:636243" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="636294:636451" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="636524:636552" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="636625:636653" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="640164:640505" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="640239:640298" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="640410:640493" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="640575:640783" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="640614:640727" ph="[...]" />
+            <marker date="1476320537947" expanded="true" signature="641015:641155" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641178:641209" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641266:641562" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641594:641622" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641669:641693" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641725:641749" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641796:641823" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="641916:642037" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="642090:642250" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="642299:642420" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="665433:665810" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="665610:665797" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="665689:665783" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="665890:666024" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="666048:666139" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="666235:666324" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="666436:666486" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="666613:666666" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="666764:667098" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="667179:667472" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="679553:679750" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="679634:679737" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="679762:679958" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="679843:679945" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="680025:680239" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="680309:680351" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="680381:680456" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="680479:680568" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="680666:681049" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="685095:685292" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="685176:685279" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="685304:685500" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="685385:685487" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="685567:685781" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="685851:685893" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="685923:685998" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="686021:686110" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="686208:686631" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="687677:687710" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="687801:688205" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="691161:691653" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="691235:691253" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="691359:691640" ph="..." />
+            <marker date="1476320537947" expanded="true" signature="691723:691830" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="691908:692048" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="692072:692103" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="692138:692389" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="692470:692498" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="692578:692602" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="692693:692791" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="692839:692978" ph="{...}" />
+            <marker date="1476320537947" expanded="true" signature="693026:693164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS/helloworld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1699" column="4" selection-start-line="1699" selection-start-column="4" selection-end-line="1699" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="852" column="0" selection-start-line="852" selection-start-column="0" selection-end-line="852" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/String.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/httpStudyHello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readFileAsync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/website.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/URL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/studyJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/studyFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/studyClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/studyBuffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/streamStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sortStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Inherit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1697">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/moduleStudy1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angularToAnlytic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/express1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/apply_and_call.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nodeHttp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readFileSync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/RegExcept.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/regular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

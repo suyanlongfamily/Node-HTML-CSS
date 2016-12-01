@@ -4,6 +4,7 @@
  * 1、记住以下事件的名字，比如，connection、close、error、newLister、open....
  */
 
+
 var event = require('events');//创建事件模块句柄
 var eventEmitter = new event.EventEmitter();//创建事件对象。
 //新事件添加时，触发的回调函数函数。newListener

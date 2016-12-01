@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="e2_4">
+<head>
+    <script src="./common/angular.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <title>控制器初始化$scope对象</title>
+</head>
+<body>
+<div ng-controller="c2_4">
+    <span>{{text}}</span>
+    <!--<button ng-click="error();">单击</button>-->
+</div>
+<script type="text/javascript">
+    var e2_4 = angular.module("e2_4",[]);
+    /*模块名，数组对象*/
+    e2_4.controller('c2_4',['$scope',function ($s) {
+        $s.text = 'hello world!';
+    }]);
+
+/*    function c2_4($scope) { //控制器名字直接就是函数名字。
+        $scope.tmp = "Angular";
+
+        $scope.error = function () {
+//            console.log(ttmp);ttmp 是未定义的变量，所以控制台打印出错。
+            console.log(this.tmp);
+        }
+    }
+*/
+</script>
+</body>
+</html>
