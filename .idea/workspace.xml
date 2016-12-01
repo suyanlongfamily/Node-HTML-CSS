@@ -2,65 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9664f7a8-7142-46aa-bd5c-aba5d3481697" name="Default" comment="同步读取文件，和异步读取文件的区别。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/5-7-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/5-7-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/5-7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/common/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/e2_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/e2_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/e2_8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/e4_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/exmple1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/helloworld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/AngularJS/inject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/Inherit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/RegExcept.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/String.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/angularToAnlytic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/express1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/httpStudyHello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/moduleStudy1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/recevied.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express/server.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/httpStudyhello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled/moduleStudy1.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/.name" afterPath="$PROJECT_DIR$/StudyJS/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/dictionaries/suyanlong.xml" afterPath="$PROJECT_DIR$/StudyJS/.idea/dictionaries/suyanlong.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/jsLinters/jscs.xml" afterPath="$PROJECT_DIR$/StudyJS/.idea/jsLinters/jscs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterPath="$PROJECT_DIR$/StudyJS/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/studyNodeJs.iml" afterPath="$PROJECT_DIR$/StudyJS/.idea/studyNodeJs.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterPath="$PROJECT_DIR$/StudyJS/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/.idea/workspace.xml" afterPath="$PROJECT_DIR$/StudyJS/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/Untitled-1" afterPath="$PROJECT_DIR$/StudyJS/Untitled-1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/css/style.css" afterPath="$PROJECT_DIR$/StudyJS/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/events.js" afterPath="$PROJECT_DIR$/StudyJS/js/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/html/caidan.html" afterPath="$PROJECT_DIR$/StudyJS/html/caidan.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/html/index.js" afterPath="$PROJECT_DIR$/StudyJS/html/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/img/paris.jpg" afterPath="$PROJECT_DIR$/StudyJS/img/paris.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/index.js" afterPath="$PROJECT_DIR$/StudyJS/js/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/js/URL.js" afterPath="$PROJECT_DIR$/StudyJS/js/URL.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/js/apply_and_call.js" afterPath="$PROJECT_DIR$/StudyJS/js/apply_and_call.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/js/mudleStudy.js" afterPath="$PROJECT_DIR$/StudyJS/js/mudleStudy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/js/regular.js" afterPath="$PROJECT_DIR$/StudyJS/js/regular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/js/studyClass.js" afterPath="$PROJECT_DIR$/StudyJS/js/studyClass.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/js/website.js" afterPath="$PROJECT_DIR$/StudyJS/js/website.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/new1.txt" afterPath="$PROJECT_DIR$/StudyJS/js/new1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/nodeHttp.js" afterPath="$PROJECT_DIR$/StudyJS/js/nodeHttp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/readFileAsync.js" afterPath="$PROJECT_DIR$/StudyJS/js/readFileAsync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/readFileSync.js" afterPath="$PROJECT_DIR$/StudyJS/js/readFileSync.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/router.js" afterPath="$PROJECT_DIR$/StudyJS/js/router.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/server.js" afterPath="$PROJECT_DIR$/StudyJS/js/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/sortStudy.js" afterPath="$PROJECT_DIR$/StudyJS/js/sortStudy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/streamStudy.js" afterPath="$PROJECT_DIR$/StudyJS/js/streamStudy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/studyBuffer.js" afterPath="$PROJECT_DIR$/StudyJS/js/studyBuffer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/studyFunction.js" afterPath="$PROJECT_DIR$/StudyJS/js/studyFunction.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/studyJs.js" afterPath="$PROJECT_DIR$/StudyJS/js/studyJs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyJS/js/Inherit.js" afterPath="$PROJECT_DIR$/StudyJS/js/Inherit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyJS/js/apply_and_call.js" afterPath="$PROJECT_DIR$/StudyJS/js/apply_and_call.js" />
     </list>
     <ignored path="WebstormProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,51 +24,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="apply_and_call.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudyJS/js/apply_and_call.js">
+      <file leaf-file-name="streamStudy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/streamStudy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studyFunction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/studyFunction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudyJS/js/events.js">
+      <file leaf-file-name="recevied.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/recevied.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httpStudyHello.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudyJS/js/httpStudyHello.js">
+      <file leaf-file-name="URL.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/URL.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudyJS/js/express1.js">
+      <file leaf-file-name="sortStudy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/sortStudy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="257">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inherit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="40">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readFileSync.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/readFileSync.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inherit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudyJS/js/Inherit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="123" column="2" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+            <state relative-caret-position="520">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mudleStudy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyJS/js/mudleStudy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -190,8 +191,8 @@
         <option value="$PROJECT_DIR$/express/server.js" />
         <option value="$PROJECT_DIR$/StudyJS/js/events.js" />
         <option value="$PROJECT_DIR$/StudyJS/js/global.js" />
-        <option value="$PROJECT_DIR$/StudyJS/js/apply_and_call.js" />
         <option value="$PROJECT_DIR$/StudyJS/js/Inherit.js" />
+        <option value="$PROJECT_DIR$/StudyJS/js/apply_and_call.js" />
       </list>
     </option>
   </component>
@@ -283,7 +284,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,10 +411,7 @@
       <recent name="C:\Users\suyanlong\WebstormProjects\untitled\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.global.js">
-    <configuration default="false" name="express.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="express.js" working-dir="$PROJECT_DIR$/StudyJS/js">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.apply_and_call.js">
     <configuration default="false" name="express1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="express1.js" working-dir="$PROJECT_DIR$/StudyJS/js">
       <method />
     </configuration>
@@ -366,6 +422,9 @@
       <method />
     </configuration>
     <configuration default="false" name="global.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="global.js" working-dir="$PROJECT_DIR$/StudyJS/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="sortStudy.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sortStudy.js" working-dir="$PROJECT_DIR$/StudyJS/js">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -430,19 +489,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.moduleStudy1.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.express.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.express1.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.apply_and_call.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.events.js" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.global.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.express1.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.apply_and_call.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.events.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.global.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.sortStudy.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.global.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.events.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.apply_and_call.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.express1.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.express.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.apply_and_call.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.sortStudy.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.global.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.events.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.express1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +552,7 @@
       <workItem from="1477294525101" duration="3210000" />
       <workItem from="1480582234457" duration="50000" />
       <workItem from="1480582322534" duration="29000" />
-      <workItem from="1480582367683" duration="215000" />
+      <workItem from="1480582367683" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="同步读取文件，和异步读取文件的区别。">
       <created>1465110609477</created>
@@ -506,7 +565,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104001000" />
+    <option name="totallyTimeSpent" value="104717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,19 +583,19 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18675596" sideWeight="0.63862926" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50816995" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34700856" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59385663" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4778157" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19642857" sideWeight="0.4358209" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5023256" sideWeight="0.3613707" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3668942" sideWeight="0.48809522" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4778157" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2542373" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3532423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5580205" sideWeight="0.48809522" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -579,7 +638,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/StudyJS/js/Inherit.js</url>
-          <line>137</line>
+          <line>138</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -717,37 +776,44 @@
           <line>34</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/StudyJS/js/sortStudy.js</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/StudyJS/js/apply_and_call.js</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/StudyJS/js/apply_and_call.js</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/StudyJS/js/apply_and_call.js</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="89" />
+      <option name="time" value="93" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/untitled/server.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/index.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/httpStudyHello.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/readFileAsync.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/readFileSync.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/js/URL.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/js/website.js" />
-    <entry file="file://$PROJECT_DIR$/untitled/img/paris.jpg" />
-    <entry file="file://$PROJECT_DIR$/untitled/html/caidan.html" />
-    <entry file="file://$PROJECT_DIR$/untitled/html/index.js" />
     <entry file="file://$PROJECT_DIR$/untitled/router.js" />
     <entry file="file://$PROJECT_DIR$/untitled/js/regular.js" />
     <entry file="file://$PROJECT_DIR$/untitled/js/apply_and_call.js" />
     <entry file="file://$PROJECT_DIR$/untitled/css/style.css" />
     <entry file="file://$PROJECT_DIR$/untitled/index.html" />
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/mudleStudy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/AngularJS/common/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -784,40 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/streamStudy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/sortStudy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/html/caidan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,30 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/studyBuffer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/studyFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/html/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/AngularJS/5-7-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -919,34 +931,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/js/new1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express/index.html">
@@ -967,6 +957,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/express1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/moduleStudy1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/regular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/studyBuffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/studyJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/website.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/String.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/nodeHttp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/readFileAsync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/html/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/js/angularToAnlytic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -977,42 +1057,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/js/apply_and_call.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/js/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="260">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyJS/js/express1.js">
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/express.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="-738">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/js/httpStudyHello.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/js/Inherit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="123" column="2" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+        <state relative-caret-position="520">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/mudleStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/readFileSync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/sortStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/streamStudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/studyFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/recevied.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyJS/js/URL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

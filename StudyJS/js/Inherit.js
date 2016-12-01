@@ -120,6 +120,7 @@ var array = ['fdsa', '', '213'];
 var noarray = 32;
 console.log(isArray(array));
 console.log(isArray(noarray));
+
 /**
  *
  * 1 空字符串、null、undefined、数字0、数字NaN、布尔值false，6六个值在转换成布尔类型的时候都为false
