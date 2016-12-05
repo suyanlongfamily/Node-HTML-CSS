@@ -40,7 +40,11 @@
             background-color: red;
         }
         /* 其实感觉不管是absolute 还是 relative亦或者是fix，其实都算是广义的相对定位，只是说定位时的参照物不一样吧了。 */
-        /* 而static是默认的，是文档流经动时默认的位置布局。    */
+        /* relative 参照物默认是原来自己的位置*/
+        /* absolute 如果父对象的位置是absolute或者是relative那么参照物就是最近的父对象，否则就是浏览器窗口*/
+        /* fix 参照物浏览器窗口*/
+        /* static是默认的，是文档流经动时默认的位置布局。    */
+
     </style>
 </head>
 <body>
