@@ -9,7 +9,7 @@
             /*position: absolute;*/
             /*top: 20px;*/
             /*left:300px;*/
-            float:left;/*float: 就来2取值:左或者右 left、right;*/
+            float: left; /*float: 就来2取值:左或者右 left、right;*/
         }
 
         .demo {
@@ -27,8 +27,18 @@
             background: #21B2F7;
             height: 200px;
             width: 100px;
-            clear: left;/*clear  属性是用在浮动标签的紧挨着的标签上的。*/
+            /*display: inline-block;*/
+            /*清除浮动，按默认的显示，item1是块元素，另一行显示。*/
+            /*如果是两块元素都在一行显示。要么两个都是浮动元素，要么两个都是内联元素。*/
+            clear: left; /*clear  属性是用在浮动标签的紧挨着的标签上的。*/
         }
+
+        /*CSS3中的浮动float总结：*/
+        /*1、清除浮动，是清除旁边有浮动属性的元素。*/
+        /*2、如果两个块元素要想在一行显示，要么两个元素都是需要设置display: inline-block 变成内联块元素，要么两个都是浮动元素。多个同样！*/
+        /*3、清除浮动后，就变成默认的元素了。块元素还是有块元素的特征。*/
+
+
     </style>
 
 
