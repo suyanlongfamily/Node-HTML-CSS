@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .fl {
+
+            /*position: absolute;*/
+            /*top: 20px;*/
+            /*left:300px;*/
+            float:left;/*float: 就来2取值:左或者右 left、right;*/
+        }
+
+        .demo {
+            background: #ccc;
+        }
+
+        .item1 {
+            background: #F571E3;
+            height: 100px;
+            width: 100px;
+            /*display: inline-block;*/
+        }
+
+        .item2 {
+            background: #21B2F7;
+            height: 200px;
+            width: 100px;
+            /*clear: left;!*clear  属性是用在浮动标签的紧挨着的标签上的。*!*/
+        }
+    </style>
+
+
+</head>
+
+<body>
+<h2>用 clearfix 清除浮动</h2>
+<div class="demo">
+    <div class="fl item1"></div>
+    <div class="item2"></div>
+</div>
+</body>
+
+
+</html>
