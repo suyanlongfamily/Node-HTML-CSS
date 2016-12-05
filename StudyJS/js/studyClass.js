@@ -79,7 +79,7 @@ console.log(pram1);
 
 pram1 = {
     er:900
-}
+};
 console.log("---------");
 console.log(pram);
 console.log(pram1);
@@ -89,7 +89,7 @@ console.log(pram1);
 * 1、exports  = module.exports;
 * 2、module.exports = &var;
 * 3、返回的是module.exports;
-*
+* 4、所以，在对exports赋值时，原来的那个值就被覆盖了。所以再使用exorts，就与本意相违背了。
 * 总结，
 * */
 var ms = require("./mudleStudy.js");

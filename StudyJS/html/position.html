@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style type="text/css">
+        html body
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        #parent
+        {
+            width: 200px;
+            height: 200px;
+            border: solid 5px black;
+            padding: 0px;
+            position: relative;
+            background-color: green;
+            top: 15px;
+            left: 15px;
+        }
+        #sub1
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*文档流以后后，相对原来的位置偏移。*/
+            position: relative;
+            top:15px;
+            left: 15px;
+        }
+        #sub2
+        {
+            /*感觉这个怎么有点像相对定位了*/
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        /* 其实感觉不管是absolute 还是 relative亦或者是fix，其实都算是广义的相对定位，只是说定位时的参照物不一样吧了。 */
+        /* 而static是默认的，是文档流经动时默认的位置布局。    */
+    </style>
+</head>
+<body>
+<div id="parent">
+    <div id="sub1">
+    </div>
+    <div id="sub2">
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
