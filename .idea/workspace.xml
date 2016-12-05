@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9664f7a8-7142-46aa-bd5c-aba5d3481697" name="Default" comment="同步读取文件，和异步读取文件的区别。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/css/position.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/html/position.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/html/position1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StudyJS/js/typeLength.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyJS/js/nodeHttp.js" afterPath="$PROJECT_DIR$/StudyJS/js/nodeHttp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudyJS/js/studyClass.js" afterPath="$PROJECT_DIR$/StudyJS/js/studyClass.js" />
-    </list>
+    <list default="true" id="9664f7a8-7142-46aa-bd5c-aba5d3481697" name="Default" comment="同步读取文件，和异步读取文件的区别。" />
     <ignored path="WebstormProjects.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +54,8 @@
       <file leaf-file-name="position.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudyJS/html/position.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="74">
+              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -439,7 +431,7 @@
       <workItem from="1480642846081" duration="2177000" />
       <workItem from="1480649036711" duration="4676000" />
       <workItem from="1480921909206" duration="1095000" />
-      <workItem from="1480925144616" duration="2636000" />
+      <workItem from="1480925144616" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="同步读取文件，和异步读取文件的区别。">
       <created>1465110609477</created>
@@ -452,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115392000" />
+    <option name="totallyTimeSpent" value="115506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +456,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18675596" sideWeight="0.63862926" order="0" side_tool="false" content_ui="combo" />
@@ -1077,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudyJS/html/position.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="74">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding />
         </state>
       </provider>
