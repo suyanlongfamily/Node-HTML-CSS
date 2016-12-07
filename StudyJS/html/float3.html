@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html ;charset=gb2312">
+    <title>float test</title>
+    <style type="text/css">
+        /*reset*/
+        body, div, p, a, ul, li, h1, h2, h3, h4, h5, h6, pre, img {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 1500px;
+            height: 400px;;
+            margin: 0 auto;
+            border: 2px solid #30c13a;
+        }
+
+        .fl {
+            width: 100px;
+            float: left;
+            background-color: #8cceff;
+        }
+
+        .f2 {
+            /*clear: left;*/
+            width: 600px;
+            background-color: #30c13a;
+        }
+
+        /*.btn1 {*/
+            /*float: left;*/
+            /*!*display: inline-block;*!*/
+            /*background: url(http://www.zhangxinxu.com/study/image/sina_gray_btn.png) no-repeat left top;*/
+            /*padding-left: 3px;*/
+            /*color: #000000;*/
+            /*font-size: 12px;*/
+            /*text-decoration: none;*/
+        /*}*/
+
+        .btn1 {
+            /*display: inline-block;*/
+            /*display: inline;*/
+            background: url(http://www.zhangxinxu.com/study/image/sina_gray_btn.png) no-repeat left top;
+            padding-left: 3px;
+            color: #000000;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        .btn1 cite {
+            display: block;
+            line-height: 26px;
+            padding: 0 13px 0 10px;
+            background: url(http://www.zhangxinxu.com/study/image/sina_gray_btn.png) no-repeat right top;
+        }
+
+        .img1{
+            width: 50px;
+            height: 50px;
+            /*display: inline-block;*/
+            float: left;
+        }
+        .inline1{
+            width: 20px;
+            height: 30px;
+            display: inline-block;
+
+        }
+        .divinline{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <p class="fl">
+        The Macintosh Classic is a personal
+    </p>
+    <!--<hr />-->
+    <div class="f2">
+        <p>
+        <h1>nifadsfads</h1>
+        <div>你好啊</div>
+        It was the first Apple Macintosh sold under US$1,000. Production of the Classic was prompted by the success of
+        the Macintosh Plus and the SE.
+        </p>
+    </div>
+
+
+    <a href="" class="btn1">按钮</a>
+    <a href="javascript:void(0);" class="btn1"><cite>inline-block方法</cite></a>
+
+
+    <p>这是一行普通的文字，这里有个 <em> em</em> 标签。</p>
+    <p> <a href="javascript:void(0);" class="btn1"><cite>inline-block方法</cite></a>
+
+
+    </p>
+
+    <!--<div class="divinline">-->
+        <!--<div>-->
+            <!--年后-->
+        <!--</div>-->
+        <!--<div class="inline1">-->
+            <!--123456789-->
+        <!--</div>-->
+        <!--<img class="img1" src="../img/paris.jpg"/>-->
+
+        <!--<div class="inline1">-->
+            <!--123456789-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <ul style="width:440px;height: 100px;">
+        <li style="border:4px solid #ff6633; background:#ffffc0; float:left;width: 50px;height: 100px;"></li>
+        <li style="border:4px solid #ff6633; background:#ffffc0;"><img class="img1" src="../img/paris.jpg" /></li>
+    </ul>
+
+
+    <div>
+
+        <div style="border:4px solid #ff6633; background:#ffffc0; float:left;width: 50px;height: 100px;">
+            <!--123-->
+        </div>
+
+        <div style="border:4px solid #ff6633; background:#ffffc0;">
+            123
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+<!--总结：
+    1、明白float最终初衷。浮动最原始的意义就是“只是用来让文字环绕图片而已，仅此而已。”
+    2、撇开浮动的“破坏性”，浮动就是个带有方位的display:inline-block属性。即可以排列一行。
+
+
+-->
