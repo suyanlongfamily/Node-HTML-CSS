@@ -30,13 +30,13 @@
         }
 
         /*.btn1 {*/
-            /*float: left;*/
-            /*!*display: inline-block;*!*/
-            /*background: url(http://www.zhangxinxu.com/study/image/sina_gray_btn.png) no-repeat left top;*/
-            /*padding-left: 3px;*/
-            /*color: #000000;*/
-            /*font-size: 12px;*/
-            /*text-decoration: none;*/
+        /*float: left;*/
+        /*!*display: inline-block;*!*/
+        /*background: url(http://www.zhangxinxu.com/study/image/sina_gray_btn.png) no-repeat left top;*/
+        /*padding-left: 3px;*/
+        /*color: #000000;*/
+        /*font-size: 12px;*/
+        /*text-decoration: none;*/
         /*}*/
 
         .btn1 {
@@ -56,19 +56,21 @@
             background: url(http://www.zhangxinxu.com/study/image/sina_gray_btn.png) no-repeat right top;
         }
 
-        .img1{
+        .img1 {
             width: 50px;
             height: 50px;
             /*display: inline-block;*/
             float: left;
         }
-        .inline1{
+
+        .inline1 {
             width: 20px;
             height: 30px;
             display: inline-block;
 
         }
-        .divinline{
+
+        .divinline {
             width: 50px;
             height: 50px;
             display: inline-block;
@@ -83,8 +85,8 @@
     <!--<hr />-->
     <div class="f2">
         <p>
-        <h1>nifadsfads</h1>
-        <div>你好啊</div>
+        <!--<h1>nifadsfads</h1>-->
+        <!--<div>你好啊</div>-->
         It was the first Apple Macintosh sold under US$1,000. Production of the Classic was prompted by the success of
         the Macintosh Plus and the SE.
         </p>
@@ -96,29 +98,29 @@
 
 
     <p>这是一行普通的文字，这里有个 <em> em</em> 标签。</p>
-    <p> <a href="javascript:void(0);" class="btn1"><cite>inline-block方法</cite></a>
+    <p><a href="javascript:void(0);" class="btn1"><cite>inline-block方法</cite></a>
 
 
     </p>
 
     <!--<div class="divinline">-->
-        <!--<div>-->
-            <!--年后-->
-        <!--</div>-->
-        <!--<div class="inline1">-->
-            <!--123456789-->
-        <!--</div>-->
-        <!--<img class="img1" src="../img/paris.jpg"/>-->
+    <!--<div>-->
+    <!--年后-->
+    <!--</div>-->
+    <!--<div class="inline1">-->
+    <!--123456789-->
+    <!--</div>-->
+    <!--<img class="img1" src="../img/paris.jpg"/>-->
 
-        <!--<div class="inline1">-->
-            <!--123456789-->
-        <!--</div>-->
+    <!--<div class="inline1">-->
+    <!--123456789-->
+    <!--</div>-->
     <!--</div>-->
 
 
     <ul style="width:440px;height: 100px;">
         <li style="border:4px solid #ff6633; background:#ffffc0; float:left;width: 50px;height: 100px;"></li>
-        <li style="border:4px solid #ff6633; background:#ffffc0;"><img class="img1" src="../img/paris.jpg" /></li>
+        <li style="border:4px solid #ff6633; background:#ffffc0;"><img class="img1" src="../img/paris.jpg"/></li>
     </ul>
 
 
@@ -133,12 +135,24 @@
         </div>
     </div>
 
+
+</div>
+
+
+<div>
+
+
 </div>
 </body>
 </html>
 <!--总结：
     1、明白float最终初衷。浮动最原始的意义就是“只是用来让文字环绕图片而已，仅此而已。”
     2、撇开浮动的“破坏性”，浮动就是个带有方位的display:inline-block属性。即可以排列一行。
+    3、浮动元素会使父元素高度塌陷。解决高度塌陷的问题 ? 清除浮动
+    CSS中有个讨论较多的话题就是如何清除浮动，清除浮动其实就一个目的，就是解决高度塌陷的问题。为什么会高度塌陷？什么时候会高度塌陷？塌陷原因是：元素含有浮动属性 ? 破坏inline box ? 破坏line box高度 ? 没有高度 ? 塌陷。什么时候会塌陷：当标签里面的元素只要样子没有实际高度时会塌陷。
+    所以呢，并不是只要有浮动元素就会坍塌，就要清除的，CSS水平高低衡量的标准之一就是改用什么样式就用什么样式，不多用也不少用。
 
+    4、纯粹一堆浮动元素没有高度。
+    5、浮动的本职工作不是页面布局而应该是是元素环绕呢。
 
 -->

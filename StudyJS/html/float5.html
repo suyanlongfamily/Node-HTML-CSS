@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html ;charset=gb2312">
+    <title>float test</title>
+    <style type="text/css">
+        /*reset*/
+        body, div, p, a, ul, li, h1, h2, h3, h4, h5, h6, pre, img {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 1500px;
+            height: 400px;;
+            margin: 0 auto;
+            border: 2px solid #30c13a;
+        }
+
+        .fl {
+            width: 100px;
+            float: left;
+            background-color: #8cceff;
+        }
+
+        .f2 {
+            /*clear: left;*/
+            width: 600px;
+            background-color: #30c13a;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <p class="fl">
+        The Macintosh Classic is a personal
+    </p>
+    <div class="f2">
+        <p>
+            It was the first Apple Macintosh sold under US$1,000. Production of the Classic was prompted by the success of
+            the Macintosh Plus and the SE.
+        </p>
+    </div>
+</div>
+</body>
+</html>
+<!--总结：
+    1、明白float最终初衷。浮动最原始的意义就是“只是用来让文字环绕图片而已，仅此而已。”
+    2、撇开浮动的“破坏性”，浮动就是个带有方位的display:inline-block属性。即可以排列一行。
+    3、浮动元素会使父元素高度塌陷。解决高度塌陷的问题 – 清除浮动
+    CSS中有个讨论较多的话题就是如何清除浮动，清除浮动其实就一个目的，就是解决高度塌陷的问题。为什么会高度塌陷？什么时候会高度塌陷？塌陷原因是：元素含有浮动属性 – 破坏inline box – 破坏line box高度 – 没有高度 – 塌陷。什么时候会塌陷：当标签里面的元素只要样子没有实际高度时会塌陷。
+    所以呢，并不是只要有浮动元素就会坍塌，就要清除的，CSS水平高低衡量的标准之一就是改用什么样式就用什么样式，不多用也不少用。
+
+    4、纯粹一堆浮动元素没有高度。
+    5、浮动的本职工作不是页面布局而应该是是元素环绕呢。
+
+脱离文档流，也就是将元素从普通的布局排版中拿走，其他盒子在定位的时候，会当做脱离文档流的元素不存在而进行定位。
+需要注意的是，使用float脱离文档流时，其他盒子会无视这个元素，但其他盒子内的文本依然会为这个元素让出位置，环绕在周围。
+而对于使用absolute position脱离文档流的元素，其他盒子与其他盒子内的文本都会无视它。
+
+作者：张秋怡
+链接：https://www.zhihu.com/question/24529373/answer/29135021
+来源：知乎
+著作权归作者所有，转载请联系作者获得授权。
+
+-->

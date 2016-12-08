@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
-        .fl {
-            /*position: absolute;*/
-            /*top: 20px;*/
-            /*left:300px;*/
-            float: left; /*float: 就来2取值:左或者右 left、right;*/
+        body, div, p, a, ul, li, h1, h2, h3, h4, h5, h6, pre, img {
+            margin: 0;
+            padding: 0;
         }
+
+        .fl {
+            float: left; /*float: 就来2取值:左或者右 left、right;*/
+            width: 200px;
+            height: 50px;
+        }
+
         .demo {
             background: #ccc;
         }
@@ -20,16 +25,21 @@
             width: 100px;
             /*display: inline-block;*/
         }
+
         .item2 {
             background: #21B2F7;
             height: 200px;
-            width: 100px;
+            width: 170px;
             /*display: inline-block;*/
             /*清除浮动，按默认的显示，item1是块元素，另一行显示。*/
             /*如果是两块元素都在一行显示。要么两个都是浮动元素，要么两个都是内联元素。*/
-
             /*设置一个元素的侧面是否允许其他的浮动元素。*/
             /*clear: left; !*clear  属性是用在浮动标签的紧挨着的标签上的。*!*/
+        }
+
+        .item3 {
+
+            /*display: inline-block;*/
         }
 
         /*CSS3中的浮动float总结：*/
@@ -38,19 +48,32 @@
         /*3、清除浮动后，就变成默认的元素了。块元素还是有块元素的特征。*/
         /*4、浮动与绝对定位、相对定位的区别*/
         /*5、注意里面的浮动元素的里面的实体，浮动，事实却不浮动，想想浮动最初的意义就明白了。*/
-
-
+        /*6、绝对定位的元素脱离了文档流，而浮动元素依旧在文档流中；而这造成的显示上的差异就是：同处于文档流中的文字实体不会与浮动元素重叠，而会与绝对定位元素重叠。这就是文字环绕显示的重要原因之一：*/
     </style>
 </head>
 
 <body>
 <h2>用 clearfix 清除浮动</h2>
 <div class="demo">
-    <div class="fl item1"></div>
-    <div class="fl item1"></div>
-    <div class="fl item1"></div>
-    <div class="item2"></div>
-    <div class="item2"></div>
+
+    <!--<div class="fl item1"></div>-->
+    <!--<div class="fl item1"></div>-->
+    <!--<div class="item2"></div>-->
+
+    <!--浮动的仅仅是壳，向上浮动的仅仅是壳-->
+    <!--<div class="fl item1">13212</div>-->
+
+<!--注意文本分隔，不然会以一个单词来看待！！！-->
+    <p class="fl">The Macintosh Classic is a personal</p>
+    <div class="item3" style="width: 800px;height: 80px;">
+        <p>
+            asfdasf fdsfaaaaa aaaaaa aaaaa
+        </p>
+    </div>
+    <!--<div class="item2">-->
+    <!--<div class="item1">-->
+    <!--</div>-->
+    <!--</div>-->
 </div>
 </body>
 
